@@ -10,7 +10,7 @@ const ProfessionalExperience = ({data}) => {
                     <span className={current ? 'h-2 bg-yellow' : 'h-2 bg-graydark'}/>
                     <div className="p-6 bg-gray shadow-md ">
                         <h3 className="text-xl font-semibold">{title}</h3>
-                        <h4>{company} / {date}</h4>
+                        <h4 className="text-yellow">{company} / {date}</h4>
                         <p>{description}</p>
                     </div>
                 </div>

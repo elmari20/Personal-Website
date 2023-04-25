@@ -122,7 +122,7 @@ export const projectsData = [
 	{
 		title: "Heartbeat Monitor For Unity",
 		description: "A final project where me and a group of two others built a groundwork for a bluetooth LE heartrate monitor asset for unity, we wanted to make developers be able to easily integrate heartrate monitors into their games. We used C# and Unity to build the asset and the project was a success. We were able to get the heartrate monitor to work with unity and we were able to get the heartrate to be displayed in the game. The project is open source and can be found on github. All credit goes to Bjarki and Tómas for our amazing team effort.",
-		image: "https://i.imgur.com/HrONXVu.png",
+		image: "https://github.com/bjarkirunars/gede-final/raw/main/screen.jpg",
 		team: "GEDE",
 		teamMembers: [
 			{ name: "Bjarki", url: "https://github.com/bjarkirunars"},
@@ -135,7 +135,7 @@ export const projectsData = [
 	{
 		title: "Car Engine Demo (Godot)",
 		description: "A project where we built a Car Engine Demo in Godot, you can try out three diffrent car types, a sports car, a drift car and a mountain car which all have diffrent characteristics. The project was made in a course called Game Engines with GDScript. All credit goes to Bjarki and Tómas for our amazing team effort.",
-		image: "https://github.com/bjarkirunars/gede-final/raw/main/screen.jpg",
+		image: "https://i.imgur.com/HrONXVu.png",
 		team: "GEDE",
 		teamMembers: [
 			{ name: "Bjarki", url: "https://github.com/bjarkirunars"},

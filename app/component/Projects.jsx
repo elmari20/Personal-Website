@@ -16,7 +16,7 @@ const ProjectCard = ({ project }) => {
         <div className="flex flex-col justify-between flex-grow ml-4">
           <div>
             <h3 className="text-xl font-semibold text-blue-600 hover:text-blue-800">
-              <a href={GithubLink.url}>
+              <a className="hover:text-yellow" href={GithubLink.url}>
                 {project.title}
               </a>
             </h3>
@@ -28,7 +28,7 @@ const ProjectCard = ({ project }) => {
                   {project.teamMembers.map((member, index) => (
                     <React.Fragment key={member.name}>
                       <a href={member.url}>
-                        <h4 className="underline text-blue-500">{member.name}</h4>
+                        <h4 className="underline text-yellow">{member.name}</h4>
                       </a>
                         {index < project.teamMembers.length - 1 && <p>|</p>}
                     </React.Fragment>
