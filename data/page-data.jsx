@@ -1,6 +1,6 @@
 export const personalData = {
 	name: "Elmar Snær Ingólfsson",
-	role: "Computer Programmer",
+	role: "Junior Developer",
 	education: [
 		"Computer Science and General Education, Fjölbrautaskóli Suðurnesja, Iceland",
 		"Computer Science, Reykjavík University, Iceland"
