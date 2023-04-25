@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import { Envelope, Twitter, Linkedin, Instagram } from "./icons";
+import { Envelope, Twitter, Linkedin, Instagram, Github } from "./icons";
 
  
 const Sidebar = ({data}) => {
@@ -24,12 +24,13 @@ const Sidebar = ({data}) => {
               ))}
             </div>
             <div className='text-white text-center mb-4 mt-4 sm:mt-8'>
-                <h3 className='mb-2 text-yellow'>CONTACT ME</h3>
+                <h3 className='mb-2 text-yellow'>SOCIALS</h3>
                 <div className='flex flex-row justify-center gap-2'>
                   <a className="icons-contactme" href={contactLinks?.[0]} aria-label={"email link"}><Envelope/></a>
                   <a className="icons-contactme" href={contactLinks?.[1]} aria-label={"twitter link"}><Twitter/></a>
                   <a className="icons-contactme" href={contactLinks?.[2]} aria-label={"linkedin link"}><Linkedin/></a> 
                   <a className="icons-contactme" href={contactLinks?.[3]} aria-label={"instagram link"}><Instagram/></a>
+                  <a className="icons-contactme" href={contactLinks?.[4]} aria-label={"github link"}><Github/></a>
 
                 </div>
             </div>

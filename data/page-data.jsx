@@ -10,6 +10,7 @@ export const personalData = {
 		"https://twitter.com/hyper_buff",
 		"https://www.linkedin.com/in/elmar-sn%C3%A6r-ing%C3%B3lfsson-084a7522a/",
 		"https://www.instagram.com/elmaringolfs/",
+		"https://github.com/elmari20"
 	],
 };
 
