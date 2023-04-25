@@ -14,7 +14,7 @@ const Skills = ({data}) => {
       className={`btn ${setBg(el)} ${el === "personal" ? "text-center" : "text-center"}`}
       onClick={() => setActiveTab(el)}
       > 
-      {el.charAt(0).toUpperCase() + el.slice(1)} Skills 
+      {el.charAt(0).toUpperCase() + el.slice(1)} SKILLS
       </button>
     ))}
   </div>
