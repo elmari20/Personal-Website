@@ -13,6 +13,7 @@ module.exports = {
       gray: '#F3F3F3',
       "gray-light": '#FAFAFA',
       "green-light": '#3E8989',
+      graydark: '#E5E5E5',
       white: '#FFFFFF',
     },
     fontFamily: {

@@ -3,7 +3,7 @@ import React, {useState} from 'react'
 
 const Skills = ({data}) => {
   const [activeTab, setActiveTab] = useState("personal");
-  const setBg = (active) => activeTab === active ? 'bg-yellow' : 'bg-gray';
+  const setBg = (active) => activeTab === active ? 'bg-yellow text-white' : 'bg-gray text-black';
 
   const tabs = (
     <div className="flex">
