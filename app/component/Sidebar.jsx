@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import { Envelope, Twitter, Linkedin, Medium } from "./icons";
+import { Envelope, Twitter, Linkedin, Instagram } from "./icons";
 
  
 const Sidebar = ({data}) => {
@@ -12,21 +12,24 @@ const Sidebar = ({data}) => {
               priority
               width={300}
               height={300}
-              className='rounded-full h-full mb-6'
+              className='rounded-full h-full mb-6 transition-all duration-300 ease-in-out transform hover:scale-105'
               src='/images/ElmarCropped.jpg'
               alt='Elmar'
             />
             <h1 className='mb-2 text-center'>{name}</h1>
             <h2 className='mb-8'>{role}</h2>
-            <p className='mb-2'>{education[0]}</p>
-            <p className='mb-2'>{education[1]}</p>
+            <div className='flex flex-col justify-center items-center text-center'>
+              {education.map((el, i) => (
+                <p key={i} className='mb-2 '>{el}</p>
+              ))}
+            </div>
             <div className='text-white text-center mb-4 mt-4 sm:mt-8'>
-                <h3 className='mb-2'>CONTACT ME</h3>
+                <h3 className='mb-2 text-yellow'>CONTACT ME</h3>
                 <div className='flex flex-row justify-center gap-2'>
                   <a className="icons-contactme" href={contactLinks?.[0]} aria-label={"email link"}><Envelope/></a>
                   <a className="icons-contactme" href={contactLinks?.[1]} aria-label={"twitter link"}><Twitter/></a>
                   <a className="icons-contactme" href={contactLinks?.[2]} aria-label={"linkedin link"}><Linkedin/></a> 
-                  <a className="icons-contactme" href={contactLinks?.[3]} aria-label={"medium link"}><Medium/></a>
+                  <a className="icons-contactme" href={contactLinks?.[3]} aria-label={"instagram link"}><Instagram/></a>
 
                 </div>
             </div>

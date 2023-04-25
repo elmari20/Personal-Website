@@ -6,61 +6,78 @@ export const personalData = {
 		"Computer Science, Reykjavík University, Iceland"
 	],
 	contactLinks: [
-		"mailto:emailto:time2code@gmail.com",
-		"https://twitter.com/time_tocode",
-		"https://linkedin.com/aliciarodriguezLi",
-		"https://medium.com/@time2code.ali",
+		"mailto:emailto:emelsi15@gmail.com",
+		"https://twitter.com/hyper_buff",
+		"https://www.linkedin.com/in/elmar-sn%C3%A6r-ing%C3%B3lfsson-084a7522a/",
+		"https://www.instagram.com/elmaringolfs/",
 	],
 };
 
 export const aboutMe = {
 	title: "About Me",
 	body: [
-		"As a highly motivated and driven individual with a passion for making a positive impact, I have a unique blend of technical and interpersonal skills, thanks to my background in computer science. I am able to tackle complex problems with ease, and I never lose sight of my ultimate goal, even when facing challenges.",
-		"When I'm not working, I love hiking, reading, and spending time with my friends and family. I believe that my determination, can-do attitude, and hard work make me a true asset to any team.",
+		"I am a highly motivated computer science student from HR with a strong desire to continuously expand my knowledge and skills. My passion lies in the development of computer games from the ground up, which has helped me develop a keen eye for detail and problem-solving. Additionally, I pride myself on being a quick learner and maintaining a healthy lifestyle.",
+		"In my free time, I enjoy exploring and learning new things, whether it be through reading, playing video games, or 3D modeling. I also love to take long walks to clear my mind and enjoy the outdoors. Additionally, I have a passion for making music and cooking. Finally, I love traveling and experiencing different cultures.",
 	],
 };
 
 export const skills = {
-	soft: [
-		{ icon: "👂🏼", text: "Active Listening" },
-		{ icon: "💬", text: "Effective Communication" },
-		{ icon: "👥", text: "Collaboration" },
-		{ icon: "⽓", text: "Teamwork" },
-		{ icon: "💡", text: "Creative Problem Solving" },
-		{ icon: "⌛️", text: "Time management" },
+	personal: [
+	  { icon: "💡", text: "Creative" },
+	  { icon: "🌀", text: "Adaptable" },
+	  { icon: "👥", text: "Team player" },
+	  { icon: "🚀", text: "Innovative" },
+	  { icon: "🚶", text: "Fast learner" },
+	  { icon: "🔍", text: "Problem solver" },
 	],
-	hard: [
-		{ icon: "💻", text: "Python" },
-		{ icon: "ʦ", text: "TypeScript" },
-		{ icon: "🚀", text: "React" },
-		{ icon: "💾", text: "SQL" },
-		{ icon: "💾", text: "noSQL" },
-		{ icon: "📈", text: "Data Structures and Algorithms" },
+	programming: [
+	  { icon: "💻", text: "Python" },
+	  { icon: "⚛️", text: "React" },
+	  { icon: "🌐", text: "Javascript" },
+	  { icon: "🌐", text: "HTML" },
+	  { icon: "🌊", text: "Tailwind" },
+	  { icon: "ʦ", text: "Typescript" },
+	  { icon: "🐘", text: "Postgres" },
+	  { icon: "🔢", text: "C++" },
+	  { icon: "🔢", text: "C#" },
+	  { icon: "📜", text: "Lua" },
+	  { icon: "🎨", text: "CSS" },
+	  { icon: "🌲", text: "Node" },
+	],
+	program: [
+	  { icon: "📈", text: "Data Structures" },
+	  { icon: "🔜", text: "Next JS" },
+	  { icon: "🎮", text: "Unity/Godot" },
+	  { icon: "🎨", text: "Photoshop/Figma" },
+	  { icon: "🐙", text: "GitHub" },
+	  { icon: "📝", text: "Word/Docs" },
+	  { icon: "📊", text: "Excel/Sheets" },
+	  { icon: "🐵", text: "Blender" },
+	  { icon: "🎥", text: "Premiere Pro" },
+	  { icon: "🎨", text: "Illustrator" },
+	  { icon: "🎵", text: "FL Studio" },
+	  { icon: "📋", text: "Trello" },
 	],
 };
 
 export const professionalData = {
-	title: "Professional Experience",
-	experiences: [
+    title: "Professional Experience",
+    experiences: [
 		{
-			role: "Data Scientist, Acme Inc. (2021-Present)",
+			title: "IT Technician",
+			company: "atNorth",
+			date: "Oct 2018 - 2020",
 			description:
-				"Design and implement machine learning models to analyze large datasets and drive business decisions. Collaborate with cross-functional teams to develop and launch new products and features. Provide technical guidance and mentorship to junior data scientists. Conduct regular presentations to stakeholders on the findings and insights generated from data analysis.",
+				"As an IT technician, I set up and maintained specialized computer systems that required high-performance computing capabilities. My responsibilities included connecting servers, managing cable networks, troubleshooting technical issues, and providing ongoing support to clients.",
 			current: true,
 		},
-
-		{
-			role: "Machine Learning Engineer, XYZ Corp. (2019-2021)",
-			description:
-				"Designed and implemented advanced machine learning algorithms to improve predictive accuracy and performance. Built and maintained scalable machine learning infrastructure using cloud computing platforms. Conducted data exploratory analysis to identify potential use cases and opportunities. Participated in regular code reviews to maintain high quality standards.",
+        {
+            title: "Technical Supervisor/Shift Manager",
+            company: "Langbest ehf.",
+            date: "2010 - 2018",
+            description:
+                "As a restaurant employee, I gained valuable experience in customer service, food preparation, and teamwork. I assisted in website development, contributing to the online presence and accessibility of the business. This experience taught me the importance of communication, adaptability, and attention to detail in a fast-paced environment.",
 			current: false,
-		},
-		{
-			role: "Machine Learning Engineer, ABX Corp. (2020-2021)",
-			description:
-				"Designed and implemented advanced machine learning algorithms to improve predictive accuracy and performance. Built and maintained scalable machine learning infrastructure using cloud computing platforms. Conducted data exploratory analysis to identify potential use cases and opportunities. Participated in regular code reviews to maintain high quality standards.",
-			current: false,
-		},
-	],
+        },
+    ],
 };
