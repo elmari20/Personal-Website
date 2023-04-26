@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 @layer base {
     h1 {
         @apply text-yellow text-4xl sm:text-6xl;
@@ -23,7 +26,7 @@
         @apply font-display;
     }
     html {
-        @apply font-sans;
+        @apply font-merriweather;
     }
 }
 
