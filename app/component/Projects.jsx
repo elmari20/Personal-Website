@@ -4,16 +4,10 @@ const ProjectCard = ({ project }) => {
   const GithubLink = project.links.find((link) => link.icon.type.name === "Github");
 
   const ifTeam = project.team ? project.team : null;
-  const teamMembersJoin = project.teamMembers
-    ? project.teamMembers.map((member) => member.name).join(", ")
-    : null;
-
-    
-
   return (
-    <div className="flex bg-gray shadow-md p-4 mb-6 w-full transform hover:scale-105 ease-in-out duration-100">
-        <img className="projectimage" src={project.image} alt={project.title} />
-        <div className="flex flex-col justify-between flex-grow ml-4">
+    <div className="flex flex-col sm:flex-row bg-gray shadow-sm p-4 mb-6 w-full transform hover:scale-105 ease-in-out duration-100">
+      <img className="projectimage" src={project.image} alt={project.title} />
+      <div className="flex flex-col justify-between flex-grow">
           <div>
             <h3 className="text-xl font-semibold text-blue-600 hover:text-blue-800">
               <a className="hover:text-yellow" href={GithubLink.url}>

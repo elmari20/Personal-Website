@@ -5,6 +5,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
+
+
 @layer base {
     h1 {
         @apply text-yellow text-4xl sm:text-6xl;
@@ -51,6 +53,6 @@ main h2 {
 }
 
 .projectimage {
-    @apply w-1/5 h-32 object-cover rounded-md;
+    @apply w-auto sm:w-1/5 sm:h-32 mb-4 sm:mb-0 sm:mr-4 object-cover rounded-md;
 }
 
