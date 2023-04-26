@@ -18,7 +18,6 @@ module.exports = {
     },
     fontFamily: {
       sans: ['Georgia', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
       display: ['Oswald'],
     },
     fontSize: {
